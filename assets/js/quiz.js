@@ -91,3 +91,6 @@ if (answer10 = "a") {
   alert("✖");
   yanlisSayisi++;
 }
+
+
+alert('Doğru sayınız: ' + dogruSayisi + '\nYanlış sayınız: ' + yanlisSayisi);
