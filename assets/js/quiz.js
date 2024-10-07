@@ -55,3 +55,39 @@ if (answer6 = "b") {
   alert("✖");
   yanlisSayisi++;
 }
+
+let answer7 = prompt("Grid içinde bir öğenin hangi satıra yerleştirileceğini belirlemek için hangi özellik kullanılır? \n a) grid-column \n b) grid-row \n c) grid-area \n d) grid-position");
+if (answer7 = "a") {
+  dogruSayisi++;
+  alert("✔");
+}else if (answer7 !== 'a') {
+  alert("✖");
+  yanlisSayisi++;
+}
+
+let answer8 = prompt("Grid'de öğeleri hizalamak için hangi özellik kullanılır? \n a) justify-items \n b) align-items \n c) justify-content \n d) Hepsi");
+if (answer8 = "d") {
+  dogruSayisi++;
+  alert("✔");
+}else if (answer8 !== 'd') {
+  alert("✖");
+  yanlisSayisi++;
+}
+
+let answer9 = prompt("3. Grid içinde bir öğenin hangi satıra yerleştirileceğini belirlemek için hangi özellik kullanılır? \n a) grid-column\n b) grid-row \n c) grid-area \n d) grid-position");
+if (answer9 = "a") {
+  dogruSayisi++;
+  alert("✔");
+}else if (answer9 !== 'a') {
+  alert("✖");
+  yanlisSayisi++;
+}
+
+let answer10 = prompt("Hangi CSS özelliği, Grid düzeninde öğelerin düzenini değiştirir? \n a) grid-auto-flow \n b) grid-template-areas \n c) grid-column-start \n d) grid-row-end");
+if (answer10 = "a") {
+  dogruSayisi++;
+  alert("✔");
+}else if (answer10 !== 'a') {
+  alert("✖");
+  yanlisSayisi++;
+}
